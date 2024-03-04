@@ -1,0 +1,45 @@
+.comicContainer{
+border: 1vw solid black;
+width: 97.1vw;
+height: 100vh;
+display: flex;
+flex-flow: row wrap;
+align-content: flex-start;
+background-color: black;
+}
+
+.comicContainer img{
+/* border: solid red; */
+height: 20vh;
+width: 30vw;
+padding: .5vh .5vw .5vh .5vw;
+}
+
+.comicContainer div{
+/* border: solid blue; */
+height: 5vh;
+width:32vw;
+font-size: 2vw;
+text-align: center;
+color: palegoldenrod;
+}
+
+.comicRowOneImage{
+order: 0;
+}
+
+.comicRowOneText{
+order: 1;
+}
+
+.comicRowTwoImage{
+order: 2;
+}
+
+.comicRowTwoText{
+order: 3;   
+}
+h1{
+    text-align: center;
+    font-size: 3vh;
+}
